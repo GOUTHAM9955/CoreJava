@@ -132,7 +132,12 @@ class LinkedListImplementation{
 		l1.add(null);
 		System.out.println(l1);
 		
-		
+		/*
+			Pool vs pop 
+			When there isn't any data
+			pop() throws NoSuchElementException >>  when you're sure the deque won't be empty and want an exception if it is.
+			pool() will return null >> when you want to avoid exceptions and handle empty deque cases gracefully.
+		*/
 	}
 }
 		
