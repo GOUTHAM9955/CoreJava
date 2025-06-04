@@ -68,6 +68,69 @@ package com.launch.oops;
  * 
  * 
  */
+/*
++------------------+      +------------------+      +-------------------+
+|  .java File      | ---> | Java Compiler    | ---> |  .class Bytecode   |
+| (Source Code)    |      | (javac)          |      | (JVM-readable)     |
++------------------+      +------------------+      +-------------------+
+                                                            |
+                                                            ↓
+                                                 +--------------------+
+                                                 |  Class Loader       |
+                                                 |  - Loads .class     |
+                                                 |  - Performs Linking |
+                                                 |  - Initializes      |
+                                                 +--------------------+
+                                                            |
+                                                            ↓
+       +------------------+       +----------------+      +----------------+
+       |  Method Area      | <--- | Symbol Table   | <--> | Constant Pool   |
+       | - Class metadata  |       +----------------+      | - Literals     |
+       | - Static vars     |                              | - Method/Field |
+       | - Method defs     |                              |   references   |
+       +------------------+                              +----------------+
+                 ↑
+                 |
++----------------+-------------------------------------------------------------+
+|                        Execution Engine                                       |
+|  +------------------+      +---------------+      +------------------------+ |
+|  |   Interpreter     | --->| JIT Compiler  | ---> | Code Cache (native)   | |
+|  | - Executes byte   |     | - Hotspot     |      | - Optimized machine   | |
+|  |   code line-by-line|    |   optimizer   |      |   code for speed      | |
+|  +------------------+      +---------------+      +------------------------+ |
++-------------------------------------------------------------------------------+
+                 |
+                 ↓
+         +------------------+
+         |   PC Register     |
+         | - Stores addr of  |
+         |   current instr   |
+         +------------------+
+                 |
+                 ↓
+         +------------------+       +------------------+
+         |   Java Stack      |       |  Native Stack    |
+         | - Stack Frames    |       | - C/C++ methods  |
+         | - Local variables |       |   via JNI        |
+         | - Operand stack   |       +------------------+
+         | - Return address  |
+         +------------------+
+                 |
+                 ↓
+         +------------------+
+         |      Heap         |
+         | - All Objects     |
+         | - Instance fields |
+         | - Arrays          |
+         | - Class instances |
+         +------------------+
+                 ↓
+        +-----------------------------+
+        |     Garbage Collector       |
+        | - Tracks unreferenced objs  |
+        | - Frees memory automatically|
+        | - Uses generational GC      |
+        +-----------------------------+*/
 
 public class OOPSLauncher1 {
 
