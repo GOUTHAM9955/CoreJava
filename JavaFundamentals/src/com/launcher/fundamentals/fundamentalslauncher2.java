@@ -5,7 +5,7 @@ package com.launcher.fundamentals;
 // Data Types
 /*
  * We have primitive data types java
- * 	1) Byte
+ *  1) Byte
  *  2) Short
  *  3) Int
  *  3) Long
@@ -29,14 +29,14 @@ package com.launcher.fundamentals;
  * long => 8 bites of memory =? when we add long data type we have to add literal 'l' as suffix for explicit type casting ":  long num1 = 2443434l;
  * 
  * The default data type of any whole number in Java is INT
- * WHenever we perform calculation of any type the resultant is always of type integer. Even for divising the decimal is truncated.
+ * Whenever we perform calculation of any type the resultant is always of type integer. Even for divising the decimal is truncated.
  *  
  */
 
 //DECIMAL NUMBERS
 /*
  * float => 4 bytes --- We have to do explicit type casting float: num1 = 246.13
- * double => 8 bits
+ * double => 8 bytes
  * 
  * The default data type is double
  */
