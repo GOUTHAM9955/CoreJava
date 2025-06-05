@@ -120,11 +120,11 @@ package com.launch.oops;
  * 							  Next code which we written will get loaded
  * 							Linking : verification,preparation and resolution
  * 								In this stage verification such as if all the bite code is proper format and for an instance proper reference is refered or not.
- * 								IN LINKING PHASE OF JVM CAME ACROSS ANY STATIC VARIABLE, ON HEAP AREA MEMORY WILL BE ALLOCATED
+ * 								IN LINKING PHASE OF JVM CAME ACROSS ANY STATIC VARIABLE, ON METHOD AREA MEMORY WILL BE ALLOCATED
  * 							
  * 							Initialization 
  * 								IN INTIALIZATION IF THERE IS ANY STATIC BLOCK IT GETS EXECUTED
- * 								STATIC METHODS GETS LOADED INTO MEMORY
+ * 								STATIC METHODS GETS LOADED INTO METHOD AREA
  * 						2) Runtime data areas: JVM will make use of different areas to perform the execution like object in heap area and method call in heap area etc..
  * 							In runtime, entire code is kept in Method area
  * 							If there is a method call, stack frames will be created in stack area
