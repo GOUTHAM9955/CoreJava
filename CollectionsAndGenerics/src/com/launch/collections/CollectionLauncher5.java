@@ -4,8 +4,8 @@ import java.util.Enumeration;
 import java.util.Vector;
 
 /*
- * Class		        Internal     | null data   | for-each loop  |  iterator   | listIterator  |    Index based Insertion
- * 				                     |        	   |				|			  |				  | 	and accessing
+ * Class	        Internal     | null data   | for-each loop  |  iterator   | listIterator  |    Index based Insertion
+ * 				     |        	   |		    |	          |		  | 	and accessing
  * 
  * ----------------------------------------------------------------------------------------------------------
  * ----------------------------------------------------------------------------------------------------------
@@ -21,10 +21,10 @@ import java.util.Vector;
  *               |                  |           |                 |               |                |
  * 
  * HashSet      |     Hashing      |      ✓      |      ✓        |       ✓        |                |
- *              |                  |             |                |                |                |
+ *              |                  |             |                |                |               |
  * 
  * LinkedHashSet|                  |     ✓       |      ✓        |       ✓        |                |
- *              |Hashing       |                 |               |                |
+ *              |Hashing           |             |               |                |                |
  */
 
 
