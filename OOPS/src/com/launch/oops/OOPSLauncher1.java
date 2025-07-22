@@ -28,7 +28,7 @@ package com.launch.oops;
  *   
  *  Instance variable vs Local variable:
  *  	Syntax is same the difference is based on where we declare them
- *  	When we declare variables for first time inside class we call it instance variable
+ *  	When we declare variables for first time inside class but outside method we call it instance variable
  *  	When we declare a variable inside method of a class we call it local variable
  *  
  *  When we execute a program. Contoller in JVM will create a stack frame of main method in stack area.  
