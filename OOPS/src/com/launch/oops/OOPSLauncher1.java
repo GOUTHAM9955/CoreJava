@@ -8,7 +8,7 @@ package com.launch.oops;
  * Syntax to create object/instance of a class : new ClassName();
  * 
  * A class execution will always start from the class with main method whose name should be same as .java file name
- *  The java file will get compiles and a .class file will be created which is escuted by JVM inside JRE
+ *  The java file will get compiles and a .class file will be created which is executed by JVM inside JRE
  * 
  *  Internally for a java application to run an environment will be dedicated in RAM which is JRE.
  *  	>> Inside JRE JVM executes the JAVA program
